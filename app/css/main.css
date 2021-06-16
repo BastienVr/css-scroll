@@ -3,3 +3,58 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+
+.first-box {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 160px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.second-box {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.final-button {
+    background-color: whitesmoke;
+    color: black;
+    height: 50px;
+    width: 160px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.final-button:hover {
+    background-color: gray;
+}
+
+.scroll-to-top {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    padding: 10px;
+    display: none
+}
+
+.scroll-to-top:hover {
+    background-color: gray;
+}
